@@ -1,0 +1,73 @@
+/*Angular-css*/
+
+#img{
+    width: 100px;
+    height: 100px;
+}
+a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
+}
+.product .img-responsive {
+    margin: 0 auto;
+}
+/*javascript CSS*/
+.navbar{
+    background-image: linear-gradient(55deg,rgb(134, 189, 63) ,lightyellow);
+}
+.img{
+    height: 80px;
+}
+/*inedxpage CSS */
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    transform:scale(1.15);
+    
+}
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+   }
+   .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-5 {
+    background-image: linear-gradient(to right, rgb(245, 42, 6) 0%, #fcb69f 51%, #ffecd2 100%);
+  }
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  .btn-3 {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  }
+  .btn-4 {
+    background-image: linear-gradient(to right, rgb(47, 21, 163) 0%, #92cde9 51%, rgb(91, 139, 216) 100%);
+  }
+  /*indexpage-css*/
+ 
+  .bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  }
+/*React CSS - inedxpage*/
+.card-img{
+    height: 250px !important;
+    object-fit: cover;
+}
+
+/*Vue CSS - inedxpage*/
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
